@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Camellapp</string>
+    <string name="boton4">Construccion</string>
+    <string name="boton5">Electricidad</string>
+    <string name="boton6">Plomeria</string>
+    <string name="boton1">Calculador</string>
+    <string name="boton2">manual construayuda</string>
+    <string name="boton3">contactanos</string>
+    <string name="boton7">salir</string>
+    <string name="txt1">como cambiar tubo de lavamanos</string>
+    <string name="txt2">como instalar punto electrico para toma corrientes</string>
+    <string name="txt3">como instalar ceramica en piso</string>
+    <string name="txt4">como instalar techo</string>
+    <string name="txt1.1">Cerrar la llave general. Lo primero que debemos hacer es cortar el suministro de agua en la llave general. ...
+Localizar las tuberías a sustituir. ...
+Cortar si es necesario y unir las tuberías. ...
+Abrir la llave y comprobar.
+</string>
+
+</resources>

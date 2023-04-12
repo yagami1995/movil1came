@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Manualconstruayuda"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/img_4"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="407dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/imagelogo12" />
+
+    <SearchView
+        android:id="@+id/txtbuscar"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="6dp"
+        android:background="@color/amarillocame"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="250dp"
+        app:cardCornerRadius="4dp"
+        android:backgroundTint="@color/amarillocame"
+        android:background="@color/azulcame"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+
+        <ImageView
+            android:id="@+id/lava"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/img"
+            />
+
+
+        <TextView
+            android:id="@id/lava"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:text="@string/txt1"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+           android:backgroundTint="@color/amarillocame"
+            android:textSize="12sp"
+            android:onClick="comoinstalar"/>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view2"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="250dp"
+        app:cardCornerRadius="4dp"
+        android:backgroundTint="@color/amarillocame"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="cardbuttom2">
+
+        <TextView
+            android:id="@+id/info_text2"
+            android:layout_width="match_parent"
+            android:layout_height="159dp"
+            android:gravity="center_horizontal"
+            android:text="@string/txt3"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/cera"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/img_2" />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view3"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="430dp"
+        app:cardCornerRadius="4dp"
+        android:backgroundTint="@color/amarillocame"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="cardbuttom3">
+
+
+
+        <TextView
+            android:id="@+id/info_text3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:text="@string/txt2"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/elec"
+            android:layout_width="match_parent"
+            android:layout_height="127dp"
+            android:layout_gravity="bottom"
+            android:src="@drawable/img_1" />
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view4"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="430dp"
+        app:cardCornerRadius="4dp"
+        android:backgroundTint="@color/amarillocame"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="cardbutto4">
+
+
+
+        <TextView
+            android:id="@+id/info_text4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:text="@string/txt4"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/tech"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/img_3" />
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="32dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtbuscar"
+        app:srcCompat="?attr/homeAsUpIndicator" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="44dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtbuscar"
+        app:srcCompat="@drawable/construayuda" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
